@@ -1,0 +1,72 @@
+site_name: Software Testing MasterGuide
+site_description: The ultimate repository for Software Testing and QA Engineering knowledge.
+site_url: https://tecorbshivamr-star.github.io/Software-Testing-MasterGuide/
+site_author: tecorbshivamr-star
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+# docs_dir: 'docs'
+site_dir: 'site'
+
+# Ignore specific non-documentation files and folders
+# Note: In newer mkdocs versions, hidden folders (.github) are ignored by default
+exclude_docs: |
+  site/
+  _site/
+  .git/
+  .*
+  requirements.txt
+  pytest.ini
+  *.jmx
+  *.js
+  *.py
+  **/jmeter_scripts/*
+  **/k6_scripts/*
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+repo_name: tecorbshivamr-star
+repo_url: https://github.com/tecorbshivamr-star
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tecorbshivamr-star
+      name: tecorbshivamr-star on GitHub

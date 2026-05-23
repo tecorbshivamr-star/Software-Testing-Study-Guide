@@ -82,8 +82,8 @@ Found a typo? Want to add content? See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## 📬 Connect
 
-**LinkedIn:** [Shivam Rai](https://linkedin.com)  
-**GitHub:** [@shivam-rai](https://github.com)
+**LinkedIn:** [Shivam Rai](https://www.linkedin.com/in/rai21shivam/)  
+**GitHub:** [@shivam-rai](https://github.com/gitshiv007)
 
 ---
 
